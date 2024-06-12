@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
-import '../css/four.css'
+import "../css/four.css"
 import access from "../assets/images/access.png.png"
 import meristem from "../assets/images/meristem.png.png"
 import acci from "../assets/images/acci.jpg.png"
 import niqs from "../assets/images/niqs.jpg.png"
 import afriglobal from "../assets/images/afriglobal.jpeg.png"
 import rsz from "../assets/images/rsz.png"
+import Button from "../shared/button"
 
 const SectionFour = () => {
   return (
@@ -28,12 +29,21 @@ const SectionFour = () => {
 
         <div
           className=" grad d-flex justify-content-between align-items-center text-light rounded px-4 py-4 "
-          style={{ backgroundColor: "#2B4B80", fontSize: "1.5rem", width:"40rem" }}
+          style={{
+            backgroundColor: "#2B4B80",
+            fontSize: "1.5rem",
+            width: "40rem",
+          }}
         >
           <h4>Have a project in mind?</h4>
-          <button type="button" className="btn btn-light">
+          {/* <button type="button" className="btn btn-light">
             Contact us
-          </button>
+          </button> */}
+          <Button
+            backgroundColor="btn-light"
+            title="Contact us"
+            textColor="text-danger"
+          />
         </div>
       </div>
     </>

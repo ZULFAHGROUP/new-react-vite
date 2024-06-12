@@ -1,11 +1,15 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Landing from './pages/landing.jsx'
+import Stores from './pages/Stores.jsx'
+import App from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
-    <Landing/>
+    {/* <Landing/> */}
+    <Stores />
   </React.StrictMode>,
 )

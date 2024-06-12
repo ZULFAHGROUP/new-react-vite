@@ -1,4 +1,5 @@
 import logo from "../assets/images/zulfahLogo.svg"
+import Button from "../shared/button"
 
 const Nav = () => {
   return (
@@ -15,9 +16,8 @@ const Nav = () => {
             <a>Produly Us</a>
             <a>Contact Us</a>
 
-            <button type="button" className="btn btn-primary">
-              SOFTWARE ACADEMY
-            </button>
+            <Button  backgroundColor="btn-primary" title="SOFTWARE ACADEMY" textColor="text-success" />
+            
           </div>
         </div>
       </nav>

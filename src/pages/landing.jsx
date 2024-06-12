@@ -1,9 +1,9 @@
 import Footer from "./footer"
 import Nav from "./nav"
 import Section from "./section"
-import SectionFour from "./sectionFour"
 import SectionThree from "./sectionThree"
 import SectionTwo from "./sectionTwo"
+import SectionFour from "./sectionFour"
 
 const Landing = () => {
   return (
