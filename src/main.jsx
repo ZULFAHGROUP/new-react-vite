@@ -5,11 +5,13 @@ import './index.css'
 import Landing from './pages/landing.jsx'
 import Stores from './pages/Stores.jsx'
 import App from './App.jsx'
+import StatePage from './pages/statePage.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Landing/> */}
-    <Stores />
+    {/* <Stores /> */}
+    <StatePage />
   </React.StrictMode>,
 )
