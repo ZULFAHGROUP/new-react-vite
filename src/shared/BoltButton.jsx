@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
-const BoltButton = ({ text}) => {
+const BoltButton = ({ text,onClick, style}) => {
   return (
-      <button className="rounded-pill p-2 " style={{border:"2px solid #cfd3d9"}} >{ text}</button>
+      <button onClick={onClick} className="rounded-pill p-2 " style={style} >{ text}</button>
   )
 }
 
