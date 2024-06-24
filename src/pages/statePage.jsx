@@ -35,7 +35,7 @@ const StatePage = () => {
 
   return (
     <div
-      className="d-flex w-100 justify-content-center align-items-center "
+      className="flex w-full justify-center items-center  "
       style={{ height: "100vh" }}
     >
       {/* <button onClick={submitFile}  >Submit </button> */}

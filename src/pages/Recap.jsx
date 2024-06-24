@@ -3,9 +3,9 @@ import { useState } from "react"
 import Input from "../shared/input"
 
 const Recap = () => {
-    // const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
-    // const show = false
+  // const show = false
   const [showPassword, setShowPassword] = useState(false)
 
   function togglePassword() {
@@ -29,7 +29,7 @@ const Recap = () => {
   //   }
   return (
     <div
-      className="d-flex w-100 align-items-center justify-content-center "
+      className="flex w-full items-center  justify-center "
       style={{ height: "100vh" }}
     >
       <form className="w-50  p-4 rounded ">

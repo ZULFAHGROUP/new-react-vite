@@ -2,7 +2,7 @@
 
 const Card = (props) => {
   return (
-    <div className="d-flex gap-3">
+    <div className="flex gap-3">
       <div className="">
         <img src={props.image} alt="iconThree" className="img-fluid" />
       </div>

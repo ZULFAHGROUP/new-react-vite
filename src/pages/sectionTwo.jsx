@@ -6,7 +6,7 @@ import iconThree from "../assets/images/IconThree.svg"
 const SectionTwo = () => {
   return (
     <>
-      <div className="d-flex flex-column align-items-center mt-5 gap-5 ">
+      <div className="flex flex-column items-center  mt-5 gap-5 ">
         <div
           className="text-light rounded px-4 py-2 "
           style={{ backgroundColor: "#2B4B80", fontSize: "1.5rem" }}
@@ -50,7 +50,7 @@ const SectionTwo = () => {
                     Application Design and Development
                   </p>
                   <div
-                    className="d-flex justify-content-center gap-2 mt-0"
+                    className="flex justify-center gap-2 mt-0"
                     style={{ color: "#C5CCD8" }}
                   >
                     <i className="bi bi-arrow-right-circle-fill"></i>
@@ -85,11 +85,11 @@ const SectionTwo = () => {
                     className="card-text"
                     style={{ color: "#2B4B80", fontWeight: "400" }}
                   >
-                    Artificial Intelligence and Machine Learning development
-                    and App integration.
+                    Artificial Intelligence and Machine Learning development and
+                    App integration.
                   </p>
                   <div
-                    className="d-flex justify-content-center gap-2 mt-0"
+                    className="flex justify-center gap-2 mt-0"
                     style={{ color: "#7B40C0" }}
                   >
                     <i className="bi bi-arrow-right-circle-fill"></i>
@@ -118,18 +118,16 @@ const SectionTwo = () => {
                       fontWeight: "600",
                     }}
                   >
-                   Product Design and
-                   Project Management
+                    Product Design and Project Management
                   </h5>
                   <p
                     className="card-text"
                     style={{ color: "#707B8E", fontWeight: "400" }}
                   >
-                    Product design, development and
-                    lifecycle management.
+                    Product design, development and lifecycle management.
                   </p>
                   <div
-                    className="d-flex justify-content-center gap-2 mt-0"
+                    className="flex justify-center gap-2 mt-0"
                     style={{ color: "#C5CCD8" }}
                   >
                     <i className="bi bi-arrow-right-circle-fill"></i>

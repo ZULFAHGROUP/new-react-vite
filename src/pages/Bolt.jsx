@@ -123,9 +123,9 @@ const Bolt = () => {
   }
 
   return (
-    <div className="w-100 text-center" style={{ height: "100vh" }}>
-      <h1>Earn money with Bolt</h1>
-      <div className="d-flex justify-content-center gap-3">
+    <div className="w-full text-center h-[100vh] ">
+      <h1  className="text-[2rem] font-bold " >Earn money with Bolt</h1>
+      <div className="flex justify-center gap-3">
         {/* <BoltButton text="Driver" onClick={() => updateTabs(1)} />
         <BoltButton text="Courier" onClick={() => updateTabs(2)} />
         <BoltButton
@@ -139,11 +139,8 @@ const Bolt = () => {
             key={boltDetail.id}
             {...boltDetail}
             onClick={() => updateTabs(boltDetail.id)}
-            style={
-              tabs === boltDetail.id
-                ? { border: "none", background: "black", color: "white" }
-                : { border: "2px solid #cfd3d9", background: "white" }
-            }
+            className={tabs === boltDetail.id ? "border-none bg-black text-white " : "bg-white boder-[#cfd3d9] "}
+         
           />
         ))}
       </div>

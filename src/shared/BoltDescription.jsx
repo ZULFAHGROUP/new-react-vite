@@ -2,16 +2,13 @@
 
 const BoltDescription = ({ numbering, title, text }) => {
   return (
-    <div className="d-flex gap-3">
-      <p
-        className=" p-2 rounded-circle text-light d-flex justify-content-center mt-2 align-items-center "
-        style={{ backgroundColor: "#32bb78", width: "20px", height: "20px" }}
-      >
+    <div className="flex gap-3">
+      <p className=" p-2 rounded-full text-white bg-[#32bb78] w-[20px] h-[20px] text-light flex justify-center mt-2 items-center ">
         {numbering}
       </p>
-      <div >
-        <h3>{title}</h3>
-        <p style={{ width: "25rem" }}>{text}</p>
+      <div>
+        <h3 className="text-[1.5rem] font-semibold ">{title}</h3>
+        <p className="w-[25rem] ">{text}</p>
       </div>
     </div>
   )

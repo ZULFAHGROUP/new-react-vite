@@ -4,7 +4,7 @@ import sectionOneImg from "../assets/images/contact-vector.png.png"
 const Section = () => {
   return (
     <>
-      <div className="container d-flex align-items-center ">
+      <div className="px-20 flex items-center  ">
         <div className="">
           <h1
             className=" "

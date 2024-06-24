@@ -5,7 +5,7 @@ import Card from "../shared/card"
 
 const SectionThree = () => {
   return (
-    <div className="d-flex flex-column align-items-center mt-5 gap-5">
+    <div className="flex flex-column items-center  mt-5 gap-5">
       <div
         className="text-light rounded px-4 py-2 "
         style={{ backgroundColor: "#FF5C97", fontSize: "1.5rem" }}
@@ -18,13 +18,12 @@ const SectionThree = () => {
       </div>
 
       <div>
-        <div className="container row px-5 ">
+        <div className="px-20 row px-5 ">
           <div className="row">
             {cardDatas.map((cardData) => {
               return (
                 <div key={cardData.id} className="col-6">
                   <Card
-                    
                     image={cardData.image}
                     title={cardData.title}
                     text={cardData.text}

@@ -5,19 +5,22 @@ const Nav = () => {
   return (
     <>
       <nav className="navbar bg-body-tertiary">
-        <div className="container px-5">
+        <div className="px-20 sm:px-5">
           <a className="navbar-brand">
             <img src={logo} alt="logo" className="img-fluid" />
           </a>
-          <div className="d-flex justify-contents-between gap-3 align-items-center  ">
+          <div className="flex justify-contents-between gap-3 items-center   ">
             <a>Home</a>
             <a>About</a>
             <a>Team</a>
             <a>Produly Us</a>
             <a>Contact Us</a>
 
-            <Button  backgroundColor="btn-primary" title="SOFTWARE ACADEMY" textColor="text-success" />
-            
+            <Button
+              backgroundColor="btn-primary"
+              title="SOFTWARE ACADEMY"
+              textColor="text-success"
+            />
           </div>
         </div>
       </nav>

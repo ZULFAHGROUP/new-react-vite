@@ -11,14 +11,14 @@ import Button from "../shared/button"
 const SectionFour = () => {
   return (
     <>
-      <div className="d-flex flex-column align-items-center mt-5 gap-5">
+      <div className="flex flex-column items-center  mt-5 gap-5">
         <div className="text-center" style={{ color: "#2B4B80" }}>
           <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>Our Partners</h1>
           <p style={{ fontWeight: "400" }}>
             Join other top companies who trust us to deliver top-notch services
           </p>
         </div>
-        <div className="d-flex justify-content-center align-items-center gap-2">
+        <div className="flex justify-center items-center  gap-2">
           <img src={access} alt="access" style={{ width: "10%" }} />
           <img src={meristem} alt="meristem" style={{ width: "10%" }} />
           <img src={niqs} alt="niqs" style={{ width: "10%" }} />
@@ -28,7 +28,7 @@ const SectionFour = () => {
         </div>
 
         <div
-          className=" grad d-flex justify-content-between align-items-center text-light rounded px-4 py-4 "
+          className=" grad flex justify-between items-center  text-light rounded px-4 py-4 "
           style={{
             backgroundColor: "#2B4B80",
             fontSize: "1.5rem",
